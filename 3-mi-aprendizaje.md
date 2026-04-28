@@ -1,3 +1,4 @@
 # COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+A través de esta práctica, he comprendido cómo Docker Compose simplifica la orquestación de aplicaciones multi-contenedor, permitiendo definir infraestructuras complejas como WordPress o SonarQube en un único archivo YAML. El uso de redes tipo bridge facilita la comunicación interna entre servicios mediante nombres de host, eliminando la necesidad de configurar IPs estáticas de manera manual.
+
+Asimismo, aprendí la importancia crítica de los **healthchecks** y la directiva `depends_on` con condiciones de salud para garantizar que los servicios arranquen en el orden correcto, evitando errores de conexión durante el encendido. Además, la implementación de volúmenes nombrados me permitió asegurar la persistencia de datos en bases de datos PostgreSQL y MySQL, incluso después de reiniciar o eliminar los contenedores.
